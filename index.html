@@ -1,11 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcial 2</title>
-</head>
-<body>
-    <h1>Parcial 2</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styleparcial2.css" />
+
+    <!-- Fuente -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icono de la pagina -->
+    <link
+      rel="shortcut icon"
+      href="/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <title>Clipboard landing page</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div class="encabezado">
+        <!-- Logo -->
+        <object
+          class="logo"
+          data="/images/logo.svg"
+          type="image/svg+xml"
+        ></object>
+        <!-- Descripcion -->
+        <div class="header-text">
+          <h1>A history of everything you copy</h1>
+          <p>
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+          <button class="ios-btn">Download for iOS</button>
+          <button class="mac-btn">Download for Mac</button>
+        </div>
+      </div>
+    </header>
+    <!-- Seccion snippets -->
+    <div class="snippets">
+      <div id="snip-desc">
+        <h2>Keep track of your snippets</h2>
+        <p>
+          Clipboard industry stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </p>
+      </div>
+      <div class="img-pc">
+        <img
+          id="snip-img"
+          src="/images/image-computer.png"
+          alt="Available for Mac"
+        />
+        <div id="snip-cont">
+          <div id="quick-search">
+            <h2>Quick Search</h2>
+            <p>
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </div>
+          <div id="icloud-sync">
+            <h2>iCloud Sync</h2>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div id="history">
+            <h2>Complete History</h2>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Seccion access clipboard -->
+    <div class="access-clipboard">
+      <h2>Access Clipboard anywhere</h2>
+      <p>
+        Whether you're on the go, or at your computer, you can access all your
+        Clipboard snippets in a few simple clicks.
+      </p>
+      <img src="/images/image-devices.png" alt="Multiple devices" />
+    </div>
+    <!-- Seccion supercharge -->
+    <div>
+      <h2>Supercharge your workflow</h2>
+      <p>We've got the tools to boost your productivity.</p>
+    </div>
+    <!-- Seccion utilidades -->
+    <div class="utilidades">
+      <!-- Blacklists -->
+      <div id="blacklist">
+        <object data="/images/icon-blacklist.svg" type="image/svg+xml"></object>
+        <h3>Create blacklists</h3>
+        <p>
+          Ensure sensitive information never makes its way to your clipboard by
+          excluding certain sources.
+        </p>
+      </div>
+      <!-- Plain text snipppets -->
+      <div id="snippets">
+        <object data="/images/icon-text.svg" type="image/svg+xml"></object>
+        <h3>Plain text snippets</h3>
+        <p>
+          Remove unwanted formatting from copied text for a consistent look.
+        </p>
+      </div>
+      <!-- Sneak preview -->
+      <div id="sneak">
+        <object data="/images/icon-preview.svg" type="image/svg+xml"></object>
+        <h3>Sneak preview</h3>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
+    <!-- Seccion para los logos de marcas -->
+    <div class="brands">
+      <img src="/images/logo-google.png" alt="Google" />
+      <img src="/images/logo-ibm.png" alt="IMB" />
+      <img src="/images/logo-microsoft.png" alt="Microsoft" />
+      <img src="/images/logo-hp.png" alt="Hewlett Packard" />
+      <img src="/images/logo-vector-graphics.png" alt="Vector Graphics" />
+    </div>
+    <!-- Seccion descarga final -->
+    <div class="download">
+      <h2>Clipboard for iOS and Mac OS</h2>
+      <p>
+        Available for free on the App Store. Download for Mac or iOS, sync with
+        iCloud and you're ready to start adding to your clipboard.
+      </p>
+      <button class="ios-btn">Download for iOS</button>
+      <button class="mac-btn">Download for Mac</button>
+    </div>
+    <!-- Seccion del pie de pagina -->
+    <footer>
+      <div class="foot-objects">
+        <div class="izquierda">
+          <object data="/images/logo.svg" type="image/svg+xml"></object>
+          <div id="info">
+            <p>FAQs</p>
+            <p>Contact Us</p>
+          </div>
+          <div id="privacy">
+            <p>Privacy Policy</p>
+            <p>Press Kit</p>
+          </div>
+          <div id="install">
+            <p>Install Guide</p>
+          </div>
+        </div>
+        <div id="social">
+          <object
+            data="/images/icon-facebook.svg"
+            type="image/svg+xml"
+          ></object>
+          <object data="/images/icon-twitter.svg" type="image/svg+xml"></object>
+          <object
+            data="/images/icon-instagram.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Largnaster/" target="_blank">Largnaster</a>.
+      </p>
+    </footer>
+  </body>
 </html>
