@@ -347,3 +347,21 @@ footer {
     padding: 0 10px;
   }
 }
+
+
+/* Aaaaaa */
+.privacy-policy{
+  padding: 2vh 10vh;
+  text-align: left;
+  font-size: 18px;
+  color: var(--n-grayish-blue);
+}
+#interpretation{
+  padding: 5vh 0;
+}
+ul{
+  padding-left: 3vh;
+}
+h3, strong{
+  color: var(--n-dark-grayish-blue);
+}
